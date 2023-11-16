@@ -2,22 +2,22 @@
 <html lang="es">
 <head>
 
-    <title>Formulario de Envío</title>
+    <title>Formulario de Envío de tu moto</title>
 </head>
 <body>
 
     <form nombre="Formulario">
 
         <fieldset>
-            <legend>Información Personal</legend>
+            <legend>Información Personal sobre el comprador de motos</legend>
 
-            <label for="nombre">Nombre:</label>
+            <label for="nombre">Nombre del motero:</label>
             <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre">
 
-            <label for="email">Correo Electrónico:</label>
+            <label for="email">Correo Electrónico del motero :</label>
             <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
 
-            <label for="telefono">Teléfono:</label>
+            <label for="telefono">Teléfono del motero:</label>
             <input type="tel" id="telefono" name="telefono" placeholder="+0034 111222333">
 
         </fieldset>
@@ -25,27 +25,27 @@
         <fieldset>
             <legend>Dirección de Envío</legend>
 
-            <label for="direccion">Dirección:</label>
+            <label for="direccion">Dirección del motero:</label>
             <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu dirección">
 
-            <label for="ciudad">Ciudad:</label>
+            <label for="ciudad">Ciudad del motero :</label>
             <input type="text" id="ciudad" name="ciudad" required placeholder="Escribe tu ciudad">
 
-            <label for="codigo_postal">Código Postal:</label>
+            <label for="codigo_postal">Código Postal del motero:</label>
             <input type="text" id="codigo_postal" name="codigo_postal" pattern="[0-9]{5}" required placeholder="12345">
 
         </fieldset>
 
         <fieldset>
-            <legend>Preferencias</legend>
+            <legend>Preferencias del motero</legend>
 
             <label for="modo_envio">Modo de Envío:</label>
             <select id="modo_envio" name="modo_envio" required>
                 <option value="normal">Normal</option>
-                <option value="express">Express</option>
+                <option value="express">Express cómo las motos</option>
             </select>
 
-            <label for="comentarios">Comentarios:</label>
+            <label for="comentarios">Moto Comentarios:</label>
             <textarea id="comentarios" name="comentarios" placeholder="Escribe tus comentarios"></textarea>
 
         </fieldset>
